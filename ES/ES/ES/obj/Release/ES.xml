@@ -1,0 +1,443 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ES
+</name>
+</assembly>
+<members>
+<member name="T:ES.PrevEnrollmentDataSet.PrevEnrollmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.PrevEnrollmentDataSet.PrevEnrollmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.PrevEnrollmentDataSet.PrevEnrollmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.PrevEnrollmentDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ES.PrevEnrollmentDataSetTableAdapters.PrevEnrollmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ES.PrevEnrollmentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ES.PrevEnrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ES.PrevEnrollmentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ES.PrevEnrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ES.PrevEnrollmentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ES.PrevEnrollmentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ES.PrevEnrollmentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ES.PrevEnrollmentDataSetTableAdapters.TableAdapterManager.UpdateAll(ES.PrevEnrollmentDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ES.PrevEnrollmentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ES.PrevEnrollmentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ES.PrevEnrollmentDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ES.GenderDataSet.GenderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.GenderDataSet.GenderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.GenderDataSet.GenderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.GenderDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ES.GenderDataSetTableAdapters.GenderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ES.GenderDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ES.GenderDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ES.GenderDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ES.GenderDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ES.GenderDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ES.GenderDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ES.GenderDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ES.GenderDataSetTableAdapters.TableAdapterManager.UpdateAll(ES.GenderDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ES.GenderDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ES.GenderDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ES.GenderDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ES.CommitteeDataSet.CommitteeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.CommitteeDataSet.CommitteeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.CommitteeDataSet.CommitteeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.CommitteeDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ES.CommitteeDataSetTableAdapters.CommitteeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ES.CommitteeDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ES.CommitteeDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ES.CommitteeDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ES.CommitteeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ES.CommitteeDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ES.CommitteeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ES.CommitteeDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ES.CommitteeDataSetTableAdapters.TableAdapterManager.UpdateAll(ES.CommitteeDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ES.CommitteeDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ES.CommitteeDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ES.CommitteeDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ES.UserDataSet.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.UserDataSet.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.UserDataSet.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.UserDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ES.UserDataSetTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ES.UserDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ES.UserDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ES.UserDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ES.UserDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ES.UserDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ES.UserDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ES.UserDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ES.UserDataSetTableAdapters.TableAdapterManager.UpdateAll(ES.UserDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ES.UserDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ES.UserDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ES.UserDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ES.StatusDataSet.StatusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.StatusDataSet.StatusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.StatusDataSet.StatusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.StatusDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ES.StatusDataSetTableAdapters.StatusTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ES.StatusDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ES.StatusDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ES.StatusDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ES.StatusDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ES.StatusDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ES.StatusDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ES.StatusDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ES.StatusDataSetTableAdapters.TableAdapterManager.UpdateAll(ES.StatusDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ES.StatusDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ES.StatusDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ES.StatusDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ES.YearLevelDataSet.Year_LevelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.YearLevelDataSet.Year_LevelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.YearLevelDataSet.Year_LevelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.YearLevelDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ES.YearLevelDataSetTableAdapters.Year_LevelTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ES.YearLevelDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ES.YearLevelDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ES.YearLevelDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ES.YearLevelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ES.YearLevelDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ES.YearLevelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ES.YearLevelDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ES.YearLevelDataSetTableAdapters.TableAdapterManager.UpdateAll(ES.YearLevelDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ES.YearLevelDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ES.YearLevelDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ES.YearLevelDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ES.StudentDataSet.StudentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.StudentDataSet.SubjectGradeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.StudentDataSet.StudentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.StudentDataSet.SubjectGradeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.StudentDataSet.StudentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.StudentDataSet.SubjectGradeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.StudentDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ES.StudentDataSetTableAdapters.StudentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ES.StudentDataSetTableAdapters.SubjectGradeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ES.StudentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ES.StudentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ES.StudentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ES.StudentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ES.StudentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ES.StudentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ES.StudentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ES.StudentDataSetTableAdapters.TableAdapterManager.UpdateAll(ES.StudentDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ES.StudentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ES.StudentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ES.StudentDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ES.HistoryLogDataSet.HistoryLogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ES.HistoryLogDataSet.HistoryLogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ES.HistoryLogDataSet.HistoryLogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ES.HistoryLogDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ES.HistoryLogDataSetTableAdapters.HistoryLogTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ES.HistoryLogDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ES.HistoryLogDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ES.HistoryLogDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ES.HistoryLogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ES.HistoryLogDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ES.HistoryLogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ES.HistoryLogDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ES.HistoryLogDataSetTableAdapters.TableAdapterManager.UpdateAll(ES.HistoryLogDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ES.HistoryLogDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ES.HistoryLogDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ES.HistoryLogDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,17 @@
+E:\Important\Projects\ES\ES\ES\bin\Release\db_es.mdb
+E:\Important\Projects\ES\ES\ES\bin\Release\ES.exe.config
+E:\Important\Projects\ES\ES\ES\bin\Release\ES.exe
+E:\Important\Projects\ES\ES\ES\bin\Release\ES.pdb
+E:\Important\Projects\ES\ES\ES\bin\Release\ES.xml
+E:\Important\Projects\ES\ES\ES\obj\Release\ResolveAssemblyReference.cache
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.frmComLogin.resources
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.frmHistLog.resources
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.frmLogin.resources
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.frmStudentList.resources
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.frmStudents.resources
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.mdiMain.resources
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.Resources.resources
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.vbproj.GenerateResource.Cache
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.exe
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.xml
+E:\Important\Projects\ES\ES\ES\obj\Release\ES.pdb
